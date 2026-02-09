@@ -9,6 +9,7 @@ import TypewriterText from "@/components/TypewriterText";
 import AcceptRose from "@/components/AcceptRose";
 import { valentineConfig } from "@/config/valentine";
 import Link from "next/link";
+import MouseFollowHearts from "@/components/Mousefollowhearts"; // <-- Add this import
 
 const roseDay = valentineConfig.days["rose-day"];
 
@@ -24,6 +25,7 @@ export default function RoseDayPage() {
 
   return (
     <main className="min-h-screen bg-gradient-to-b from-[#0a0000] via-[#1a0005] to-[#0a0000] relative overflow-hidden">
+      <MouseFollowHearts /> {/* <-- Add this line */}
       <FloatingPetals count={40} />
       <HeartParticles count={10} />
 
@@ -56,7 +58,7 @@ export default function RoseDayPage() {
         >
           <Link
             href="/"
-            className="text-rose-300/40 hover:text-rose-300/70 transition-colors text-sm flex items-center gap-2"
+            className="text-rose-300 hover:text-rose-300/70 transition-colors text-2xl flex items-center gap-2"
           >
             ← Back to surprises
           </Link>

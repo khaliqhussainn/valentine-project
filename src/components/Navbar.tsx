@@ -25,7 +25,7 @@ export default function Navbar() {
             For {valentineConfig.name}
           </span>
         </Link>
-        <div className="text-sm text-rose-300/50 hidden sm:block">
+        <div className="text-xl text-rose-300/50 hidden sm:block">
           Valentine&apos;s Week 2026
         </div>
       </div>

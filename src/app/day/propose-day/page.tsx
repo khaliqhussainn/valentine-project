@@ -46,7 +46,7 @@ export default function ProposeDayPage() {
           className="absolute w-[600px] h-[600px] rounded-full opacity-[0.03]"
           style={{
             background:
-              "radial-gradient(circle, rgba(255,215,100,0.4) 0%, transparent 60%)",
+              "radial-gradient(circle, rgba(255,215,100) 0%, transparent 60%)",
           }}
           animate={{
             x: ["-10%", "60%", "30%", "-10%"],
@@ -67,8 +67,8 @@ export default function ProposeDayPage() {
         >
           <Link
             href="/"
-            className="transition-colors text-sm flex items-center gap-2"
-            style={{ color: "rgba(200,180,120,0.3)" }}
+            className="transition-colors text-xl flex items-center gap-2"
+            style={{ color: "rgba(200,180,120)" }}
           >
             ← Back to surprises
           </Link>
@@ -84,7 +84,7 @@ export default function ProposeDayPage() {
           <span
             className="px-5 py-2 rounded-full text-[10px] tracking-[0.35em] uppercase border bg-black/30 backdrop-blur-sm"
             style={{
-              borderColor: "rgba(200,170,80,0.2)",
+              borderColor: "rgba(200,170,80)",
               color: "rgba(220,190,110,0.5)",
               boxShadow: "0 0 20px rgba(180,150,60,0.06)",
             }}
@@ -106,8 +106,8 @@ export default function ProposeDayPage() {
           className="text-center"
         >
           <p
-            className="text-sm tracking-[0.5em] uppercase mb-4"
-            style={{ color: "rgba(220,190,110,0.35)" }}
+            className="text-xl tracking-[0.5em] uppercase mb-4"
+            style={{ color: "rgba(220,190,110)" }}
           >
             Will you be mine forever
           </p>
@@ -130,7 +130,7 @@ export default function ProposeDayPage() {
             className="w-20 h-px"
             style={{
               background:
-                "linear-gradient(to right, transparent, rgba(220,190,110,0.3))",
+                "linear-gradient(to right, transparent, rgba(220,190,110))",
             }}
           />
           <motion.span
@@ -144,7 +144,7 @@ export default function ProposeDayPage() {
             className="w-20 h-px"
             style={{
               background:
-                "linear-gradient(to left, transparent, rgba(220,190,110,0.3))",
+                "linear-gradient(to left, transparent, rgba(220,190,110))",
             }}
           />
         </motion.div>
@@ -155,7 +155,7 @@ export default function ProposeDayPage() {
           animate={{ opacity: 1 }}
           transition={{ delay: 2.5 }}
           className="mt-6 text-lg md:text-xl italic text-center max-w-lg"
-          style={{ color: "rgba(220,190,120,0.3)" }}
+          style={{ color: "rgba(220,190,120)" }}
         >
           &ldquo;{proposeDay.tagline}&rdquo;
         </motion.p>
@@ -174,7 +174,7 @@ export default function ProposeDayPage() {
           >
             <span
               className="text-[10px] tracking-[0.3em] uppercase"
-              style={{ color: "rgba(220,190,110,0.2)" }}
+              style={{ color: "rgba(220,190,110)" }}
             >
               scroll
             </span>
@@ -182,7 +182,7 @@ export default function ProposeDayPage() {
               className="w-px h-6"
               style={{
                 background:
-                  "linear-gradient(to bottom, rgba(220,190,110,0.2), transparent)",
+                  "linear-gradient(to bottom, rgba(220,190,110), transparent)",
               }}
             />
           </motion.div>
@@ -203,7 +203,7 @@ export default function ProposeDayPage() {
             className="relative p-6 sm:p-8 md:p-14 rounded-3xl backdrop-blur-md"
             style={{
               background:
-                "linear-gradient(135deg, rgba(60,45,10,0.25) 0%, rgba(20,15,5,0.4) 50%, rgba(60,45,10,0.15) 100%)",
+                "linear-gradient(135deg, rgba(60,45,105) 0%, rgba(20,15,5) 50%, rgba(60,45,10,0.15) 100%)",
               border: "1px solid rgba(220,190,110,0.08)",
               boxShadow:
                 "0 0 60px rgba(180,150,60,0.04), inset 0 1px 0 rgba(255,235,180,0.03)",
@@ -220,7 +220,7 @@ export default function ProposeDayPage() {
                 background:
                   "linear-gradient(135deg, rgba(200,170,60,0.9), rgba(180,140,50,0.8))",
                 boxShadow:
-                  "0 4px 20px rgba(180,150,50,0.3), inset 0 -2px 4px rgba(0,0,0,0.2)",
+                  "0 4px 20px rgba(180,150,50), inset 0 -2px 4px rgba(0,0,0)",
               }}
             >
               <span className="text-white text-lg">💌</span>
@@ -246,7 +246,7 @@ export default function ProposeDayPage() {
                 whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
                 transition={{ delay: 0.8 }}
-                className="leading-[1.9] text-sm sm:text-base md:text-lg space-y-4"
+                className="leading-[1.9] text-xl sm:text-base md:text-lg space-y-4"
                 style={{ color: "rgba(240,225,180,0.55)" }}
               >
                 <p>{proposeDay.message}</p>
@@ -270,13 +270,13 @@ export default function ProposeDayPage() {
                     fontFamily: "var(--font-great-vibes)",
                     color: "rgba(255,230,150,0.8)",
                     textShadow:
-                      "0 0 30px rgba(220,180,60,0.3), 0 0 60px rgba(220,180,60,0.1)",
+                      "0 0 30px rgba(220,180,60), 0 0 60px rgba(220,180,60,0.1)",
                   }}
                   animate={{
                     textShadow: [
-                      "0 0 30px rgba(220,180,60,0.3), 0 0 60px rgba(220,180,60,0.1)",
-                      "0 0 40px rgba(220,180,60,0.5), 0 0 80px rgba(220,180,60,0.2)",
-                      "0 0 30px rgba(220,180,60,0.3), 0 0 60px rgba(220,180,60,0.1)",
+                      "0 0 30px rgba(220,180,60), 0 0 60px rgba(220,180,60,0.1)",
+                      "0 0 40px rgba(220,180,60,0.5), 0 0 80px rgba(220,180,60)",
+                      "0 0 30px rgba(220,180,60), 0 0 60px rgba(220,180,60,0.1)",
                     ],
                   }}
                   transition={{ duration: 3, repeat: Infinity }}
@@ -290,10 +290,10 @@ export default function ProposeDayPage() {
                 whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
                 transition={{ delay: 1.5 }}
-                className="mt-6 text-right text-sm sm:text-base"
+                className="mt-6 text-right text-xl sm:text-base"
                 style={{
                   fontFamily: "var(--font-great-vibes)",
-                  color: "rgba(220,190,110,0.4)",
+                  color: "rgba(220,190,110)",
                 }}
               >
                 Forever & Always Yours ❤️
@@ -313,7 +313,7 @@ export default function ProposeDayPage() {
         >
           <motion.span
             className="text-[10px] tracking-[0.4em] uppercase block mb-4"
-            style={{ color: "rgba(220,190,110,0.25)" }}
+            style={{ color: "rgba(220,190,1105)" }}
           >
             From my heart to yours
           </motion.span>
@@ -342,7 +342,7 @@ export default function ProposeDayPage() {
               className="relative p-5 sm:p-6 rounded-2xl cursor-default group overflow-hidden"
               style={{
                 background:
-                  "linear-gradient(135deg, rgba(60,45,10,0.2) 0%, rgba(20,15,5,0.3) 100%)",
+                  "linear-gradient(135deg, rgba(60,45,10) 0%, rgba(20,15,5) 100%)",
                 border: "1px solid rgba(220,190,110,0.06)",
               }}
             >
@@ -368,8 +368,8 @@ export default function ProposeDayPage() {
               </div>
 
               <p
-                className="text-sm sm:text-base leading-relaxed relative z-10 transition-colors duration-500"
-                style={{ color: "rgba(230,215,160,0.45)" }}
+                className="text-xl sm:text-base leading-relaxed relative z-10 transition-colors duration-500"
+                style={{ color: "rgba(230,215,1605)" }}
               >
                 {reason}
               </p>
@@ -402,7 +402,7 @@ export default function ProposeDayPage() {
               className="relative p-6 sm:p-10 md:p-14 rounded-3xl backdrop-blur-md overflow-hidden"
               style={{
                 background:
-                  "linear-gradient(180deg, rgba(60,45,10,0.2) 0%, rgba(20,15,5,0.35) 50%, rgba(60,45,10,0.15) 100%)",
+                  "linear-gradient(180deg, rgba(60,45,10) 0%, rgba(20,15,5) 50%, rgba(60,45,10,0.15) 100%)",
                 border: "1px solid rgba(220,190,110,0.08)",
                 boxShadow: "0 0 80px rgba(180,150,60,0.04)",
               }}
@@ -412,7 +412,7 @@ export default function ProposeDayPage() {
                 className="absolute inset-0 opacity-[0.03]"
                 style={{
                   background:
-                    "conic-gradient(from 0deg at 50% 50%, rgba(255,215,0,0.4), transparent, rgba(220,180,60,0.3), transparent, rgba(255,215,0,0.4))",
+                    "conic-gradient(from 0deg at 50% 50%, rgba(255,215,0), transparent, rgba(220,180,60), transparent, rgba(255,215,0))",
                 }}
                 animate={{ rotate: 360 }}
                 transition={{
@@ -428,9 +428,9 @@ export default function ProposeDayPage() {
                 animate={{
                   scale: [1, 1.12, 1],
                   filter: [
-                    "drop-shadow(0 0 10px rgba(255,215,0,0.2))",
-                    "drop-shadow(0 0 25px rgba(255,215,0,0.5)) drop-shadow(0 0 50px rgba(255,200,60,0.3))",
-                    "drop-shadow(0 0 10px rgba(255,215,0,0.2))",
+                    "drop-shadow(0 0 10px rgba(255,215,0))",
+                    "drop-shadow(0 0 25px rgba(255,215,0,0.5)) drop-shadow(0 0 50px rgba(255,200,60))",
+                    "drop-shadow(0 0 10px rgba(255,215,0))",
                   ],
                 }}
                 transition={{ duration: 3, repeat: Infinity }}
@@ -444,7 +444,7 @@ export default function ProposeDayPage() {
                 whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
                 className="text-[10px] sm:text-xs tracking-[0.3em] uppercase mb-4 relative z-10"
-                style={{ color: "rgba(220,190,110,0.3)" }}
+                style={{ color: "rgba(220,190,110)" }}
               >
                 Tap to see why I love you
               </motion.p>
@@ -473,11 +473,11 @@ export default function ProposeDayPage() {
                 }
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="px-6 py-2.5 rounded-full text-xs sm:text-sm mb-10 sm:mb-12 cursor-pointer transition-colors relative z-10"
+                className="px-6 py-2.5 rounded-full text-xl sm:text-xl mb-10 sm:mb-12 cursor-pointer transition-colors relative z-10"
                 style={{
                   border: "1px solid rgba(220,190,110,0.12)",
                   background: "rgba(180,150,50,0.06)",
-                  color: "rgba(220,190,110,0.45)",
+                  color: "rgba(220,190,1105)",
                 }}
               >
                 Next reason →
@@ -542,7 +542,7 @@ export default function ProposeDayPage() {
                   background:
                     "linear-gradient(135deg, rgba(180,150,40,0.9) 0%, rgba(220,180,60,0.85) 40%, rgba(200,160,50,0.8) 100%)",
                   boxShadow:
-                    "0 0 30px rgba(200,170,50,0.25), 0 0 60px rgba(200,170,50,0.08), inset 0 1px 0 rgba(255,255,255,0.2)",
+                    "0 0 30px rgba(200,170,505), 0 0 60px rgba(200,170,50,0.08), inset 0 1px 0 rgba(255,255,255)",
                 }}
               >
                 {/* Button shimmer */}
@@ -574,7 +574,7 @@ export default function ProposeDayPage() {
               className="relative p-6 sm:p-10 md:p-14 rounded-3xl backdrop-blur-md overflow-hidden"
               style={{
                 background:
-                  "linear-gradient(180deg, rgba(60,45,10,0.3) 0%, rgba(30,22,8,0.4) 50%, rgba(60,45,10,0.2) 100%)",
+                  "linear-gradient(180deg, rgba(60,45,10) 0%, rgba(30,22,8) 50%, rgba(60,45,10) 100%)",
                 border: "1px solid rgba(220,190,110,0.12)",
                 boxShadow: "0 0 80px rgba(200,170,50,0.08)",
               }}
@@ -625,9 +625,9 @@ export default function ProposeDayPage() {
                 animate={{
                   scale: [1, 1.15, 1],
                   filter: [
-                    "drop-shadow(0 0 15px rgba(255,215,0,0.3))",
-                    "drop-shadow(0 0 40px rgba(255,215,0,0.6)) drop-shadow(0 0 80px rgba(255,200,60,0.3))",
-                    "drop-shadow(0 0 15px rgba(255,215,0,0.3))",
+                    "drop-shadow(0 0 15px rgba(255,215,0))",
+                    "drop-shadow(0 0 40px rgba(255,215,0,0.6)) drop-shadow(0 0 80px rgba(255,200,60))",
+                    "drop-shadow(0 0 15px rgba(255,215,0))",
                   ],
                 }}
                 transition={{ duration: 1.5, repeat: Infinity }}
@@ -660,7 +660,7 @@ export default function ProposeDayPage() {
               >
                 <TypewriterText
                   text={`${name}, you just made this the most beautiful day of my life. From this moment on, my heart is officially and completely yours — no take-backs!`}
-                  className="text-sm sm:text-base leading-relaxed"
+                  className="text-xl sm:text-base leading-relaxed"
                   delay={0.5}
                   speed={30}
                 />
@@ -692,8 +692,8 @@ export default function ProposeDayPage() {
                   Screenshot this moment!
                 </p>
                 <p
-                  className="text-xs sm:text-sm leading-relaxed"
-                  style={{ color: "rgba(220,190,110,0.4)" }}
+                  className="text-xs sm:text-xl leading-relaxed"
+                  style={{ color: "rgba(220,190,110)" }}
                 >
                   Send it to me — I want to keep this &ldquo;yes&rdquo; forever
                   💍
@@ -747,7 +747,7 @@ export default function ProposeDayPage() {
         >
           <motion.span
             className="text-[10px] tracking-[0.4em] uppercase block mb-4"
-            style={{ color: "rgba(220,190,110,0.2)" }}
+            style={{ color: "rgba(220,190,110)" }}
           >
             Whispers of the heart
           </motion.span>
@@ -786,10 +786,10 @@ export default function ProposeDayPage() {
                 {item.emoji}
               </motion.span>
               <p
-                className="text-sm sm:text-lg italic leading-relaxed pl-3 sm:pl-4 transition-all duration-700"
+                className="text-xl sm:text-lg italic leading-relaxed pl-3 sm:pl-4 transition-all duration-700"
                 style={{
                   borderLeft: "1px solid rgba(220,190,110,0.1)",
-                  color: "rgba(230,215,150,0.4)",
+                  color: "rgba(230,215,150)",
                 }}
               >
                 &ldquo;{item.text}&rdquo;
@@ -809,7 +809,7 @@ export default function ProposeDayPage() {
         >
           <p
             className="text-[10px] tracking-[0.3em] uppercase mb-4"
-            style={{ color: "rgba(220,190,110,0.2)" }}
+            style={{ color: "rgba(220,190,110)" }}
           >
             Tomorrow brings...
           </p>
@@ -835,8 +835,8 @@ export default function ProposeDayPage() {
           >
             <span className="text-4xl">🍫</span>
             <p
-              className="mt-3 text-sm"
-              style={{ color: "rgba(220,190,110,0.25)" }}
+              className="mt-3 text-xl"
+              style={{ color: "rgba(220,190,1105)" }}
             >
               Chocolate Day — Coming Feb 9
             </p>
@@ -854,11 +854,11 @@ export default function ProposeDayPage() {
       <div className="relative z-10 text-center pb-12 sm:pb-20">
         <Link
           href="/"
-          className="inline-flex items-center gap-2 px-6 py-3 rounded-full text-sm transition-all duration-300"
+          className="inline-flex items-center gap-2 px-6 py-3 rounded-full text-xl transition-all duration-300"
           style={{
             border: "1px solid rgba(220,190,110,0.1)",
             background: "rgba(180,150,50,0.04)",
-            color: "rgba(220,190,110,0.4)",
+            color: "rgba(220,190,110)",
           }}
         >
           ← Back to Valentine&apos;s Week
