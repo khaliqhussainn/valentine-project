@@ -1,0 +1,113 @@
+@import "tailwindcss";
+
+:root {
+  --background: #0a0000;
+  --foreground: #fff0f3;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: "Georgia", "Times New Roman", serif;
+  overflow-x: hidden;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 0, 80, 0.3);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 0, 80, 0.5);
+}
+
+/* Selection color */
+::selection {
+  background: rgba(255, 0, 80, 0.3);
+  color: #fff;
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Romantic glow animation */
+@keyframes romantic-glow {
+  0%,
+  100% {
+    text-shadow:
+      0 0 10px rgba(255, 0, 80, 0.3),
+      0 0 20px rgba(255, 0, 80, 0.2),
+      0 0 40px rgba(255, 0, 80, 0.1);
+  }
+  50% {
+    text-shadow:
+      0 0 20px rgba(255, 0, 80, 0.5),
+      0 0 40px rgba(255, 0, 80, 0.3),
+      0 0 80px rgba(255, 0, 80, 0.2);
+  }
+}
+
+.romantic-glow {
+  animation: romantic-glow 3s ease-in-out infinite;
+}
+
+/* Heartbeat animation */
+@keyframes heartbeat {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.1);
+  }
+  35% {
+    transform: scale(1);
+  }
+  45% {
+    transform: scale(1.15);
+  }
+  55% {
+    transform: scale(1);
+  }
+}
+
+.heartbeat {
+  animation: heartbeat 1.5s ease-in-out infinite;
+}
+
+/* Floating animation */
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.float {
+  animation: float 3s ease-in-out infinite;
+}
