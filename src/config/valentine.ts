@@ -41,33 +41,33 @@ export const valentineConfig = {
       tagline:
         "Every love story is beautiful, but ours is my favourite and special",
       message:
-        "From the first moment I saw you, I knew my heart had found its home. You are not just the love of my life you are the reason I believe in love at all. Every heartbeat whispers your name, every dream begins and ends with you. I don't just want to be with you today I want to wake up beside your smile for every tomorrow that follows. You are my forever, my always, and everything in between.",
+        "My Jaan you're my everything, you're my dream which i imagine in my life i never think about better life partner than you, i am so lucky to have you in my life i love you more than you ever imagine, I Love you more than you ever dream, I am here for you always fulfilling your all dreams I will be there for you till my last breathe, I promise baby you will find me always your side standing in front of you protecting from whole world, I promise I take care of you like a baby more than myself, more than anyone I’ll never make you feel sad or regret choosing me, we can fight, argue, scratch each other face but it will be temperory in the end I’m yours and you’re mine always and forever. I promise baby I always love you! I LOVE YOU SO MUCH MARYAM NADEEM. You are my forever, my always, and everything in between.",
       color: "from-purple-900 via-pink-700 to-rose-500",
       bgColor: "bg-gradient-to-br from-[#1a001a] via-[#2d0a2d] to-[#1a001a]",
       reasons: [
-        "Your smile makes all my tension disappear in an instant",
-        "Your presence fills my heart with a calm I never knew I needed",
-        "You turn the simplest moments into something magical just by being there",
-        "Your kindness pushes me to become a better version of myself",
-        "Even when I irritate you, your love and gentle gestures make me feel safe and wanted",
-        "You are my storm that washes away every worry and leaves me at peace",
+        "I'll always choose you, every single day, no matter what",
+        "I cook food for you, care for you, fullfill your all needs, I will be there for you in every situation",
+        "I fight and argue sometimes do things which you don't like but everything is temporary but my love for you is permanent never forget that, even in my busy day i always find time for you because you are my first priority.",
+        "I may not be perfect, not handsome, not rich, but i love you more than anyone and even if i have nothing i still do everything for you to complete your need, i know we have a lot of problems i don't know how we will solve them but i promise you i will never leave you alone in any situation, i will be there for you always, i will protect you from whole world, i will be your safe place, My life!!",
+        "Even when I irritate you, which i know i do most of the time 🙂‍↕️, it's my right and i love to tease you but there's love, care and respect for you always, please forgive my bad behaviour sometimes i am not like you want sometime you can't talk freely about every topic i hate about it myself i don't know why i overreact but i want you to tell me everything freely safely everything whatever you want please... i promise i try to change this mistake as well ",
+        "There will never be ego or attitude between you and me. Even if I have to say sorry an infinite number of times, I will because you are mine, my wife, and your respect is my responsibility. Just as I will never allow you to bend before others, I will never allow anyone to do the same to you. I don’t want long fights or endless arguments. Even if we’re angry with each other, I want to resolve it within five minutes. I don’t want us to sleep while holding anger in our hearts. I want to solve every problem as soon as it arises, because I can’t bear even a second without talking to you. I can’t bear even a second without you without your love, your care, and your presence.",
       ],
       heartQuotes: [
         {
           emoji: "💫",
-          text: "The day I met you, the stars rearranged themselves",
+          text: "You're so pure, so kind, so beautiful inside and out. I am the luckiest person alive to have you in my life",
         },
         {
           emoji: "💛",
-          text: "Every moment with you feels like a beautiful dream I never want to wake up from",
+          text: "You're the prettiest, cutiest, gorgeiest, sexist, hotest and most beautiful girl in the whole universe.",
         },
         {
           emoji: "💍",
-          text: "I don't need a perfect life — I just need you in it",
+          text: "Marry me i don't want to spend a single day without you, i want to be with you for forever, i want to be your husband and i want you to be my wife, i want to make you the happiest woman in the world, i want to give you all the love and care you deserve, i want to be your everything, i want to be your forever, i want to be your always, i want to be your all, i want to be yours and you be mine for forever.",
         },
         {
           emoji: "🌙",
-          text: "You are my today, my tomorrow, and all of my forevers",
+          text: "You are my today, my tomorrow, and all of my forevers love, my baby, my khuchupuchu my maruuummyy, my everything, I LOVE YOU SO MUCH!!!",
         },
       ],
     },
