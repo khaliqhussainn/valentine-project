@@ -165,9 +165,9 @@ export const valentineConfig = {
       get unlocked() {
         return isDayUnlocked(this.date);
       },
-      tagline: "A thousand kisses wouldn't be enough",
+      tagline: "Still craving for your kisses, really want to kiss you right now",
       message:
-        "Every kiss with you feels like the first time butterflies in my stomach, heart racing, time standing still. I'm sending you a thousand virtual kisses until I can give you real ones again.",
+        "I can’t wait to see you and kiss your forehead, your cheeks, your nose… and of course, your lips. I always imagine holding you in my arms, my hands on your waist, keeping you close and protecting you from everything. Looking into your eyes, I feel so lucky to have you in my life. You are my sweetest love, my safe place, my happiness. I love you more than words could ever truly express. 💕",
       color: "from-pink-900 via-rose-600 to-red-400",
       bgColor: "bg-gradient-to-br from-[#1a000f] via-[#2d0a1f] to-[#1a000f]",
     },
